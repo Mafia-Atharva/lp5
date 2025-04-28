@@ -69,7 +69,6 @@ void full_bench(Graph& graph) {
 }
 
 int main(int argc, const char** argv) {
-    std::cout<<argc;
     if (argc < 2) {
         std::cout << "Input file not specified.\n";
         return 1;
